@@ -1,4 +1,4 @@
-python pdf.py | grep "sucesso" || {
+python $USER/.bin/pdf/pdf.py | grep "sucesso" || {
     mkdir -p .old
     rm pdfFull.pdf
     echo "Ocorreu um erro"
@@ -11,7 +11,7 @@ python pdf.py | grep "sucesso" || {
     done
 
     echo "Tentando novamente"
-    python pdf.py | grep "sucesso" ||  {
+    python $USER/.bin/pdf/pdf.py | grep "sucesso" ||  {
         echo "Ta foda man..."
         rm pdfFull.pdf
         
