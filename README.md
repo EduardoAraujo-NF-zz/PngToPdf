@@ -1,6 +1,6 @@
 # Script para concatenar imagens do diretorio para um arquivo pdf
 
-Requisito: python pip
+Requisito: python pip imagemagick
 
 Script criado utilizando a biblioteca img2pdf versão 0.4.1
 `pip install img2pdf==0.4.1`
