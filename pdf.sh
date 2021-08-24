@@ -1,3 +1,5 @@
+# To Do: Ordenar as paginas
+
 python $USER/.bin/pdf/pdf.py | grep "sucesso" || {
     mkdir -p .old
     rm pdfFull.pdf
